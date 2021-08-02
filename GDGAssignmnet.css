@@ -1,0 +1,131 @@
+body{
+    text-align: center;
+    margin-left: 170px;
+    margin-right: 170px;
+  background-color: rgb(139, 173, 211);
+}
+h1{
+    color: black;
+    text-shadow: red 2px 2px 5px;
+
+}
+.nav li{
+    /* float: left; */
+    display: inline;
+    padding: 25px;
+}
+h3{
+    color: rgb(223, 31, 31);
+    font-style: oblique;
+
+}
+    
+ol a{
+    text-decoration: none;
+    
+}
+.about{
+    border: solid rgb(197, 194, 194);
+    float:left;
+    padding: 15px;
+
+}
+.s_about{
+    padding-top: 17px;
+}
+.about_image{
+    float:left;
+    margin: 50px ;
+
+    
+}
+.about_image img{
+   border-radius: 90%;
+}
+.about_info{
+    border-radius: 30px;
+    border: solid rgb(197, 194, 194);
+    padding: 20px;
+    margin: 50px;
+    width: 370px;
+    float: right;
+   height: auto;
+
+}
+.about_info >button{
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+#projects {
+
+    float:left;
+    padding: 15px;
+}
+.Project1{
+    border-radius: 5%;
+    border: solid rgb(197, 194, 194);
+    width: 40%;
+    float: left;
+    padding: 9px;
+   margin-top: 40px;
+   margin-bottom: 35px;
+   margin-right: 10px;
+   margin-left: 40px;
+   height: auto;
+   
+
+}
+.Project2{
+    border-radius: 5%;
+    border: solid rgb(197, 194, 194);
+    width: 40%;
+    float: right;
+  height: auto;
+    padding: 9px;
+    margin-top: 40px;
+   margin-bottom: 35px;
+   margin-right: 40px;
+   margin-left: 20px;
+
+}
+.projects button{
+    width: 100px;
+    padding: 10px;
+    border-radius: 2px;
+    margin:5px;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+
+}
+ .name{
+    height: 30px;
+    width: 205px;
+    border-radius: 5px;
+}
+.description{
+    height: 70px ;
+    width: 200px;
+    border-radius: 5px;
+}
+#contact{
+    margin-top: 10px;
+    border: solid rgb(197, 194, 194);
+    margin-left: 150px;
+    margin-right: 150px;
+    height: auto;
+    box-shadow: 10px 10px 5px gray;
+    
+
+
+}
+#contact button{
+    padding: 10px;
+    width: 80px;
+    cursor: pointer;
+
+    border-radius: 7px;
+}
